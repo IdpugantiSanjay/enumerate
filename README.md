@@ -4,7 +4,7 @@ Python style enumerate function generator in javascript
 
 #### Installation
 
-```npm i @sanjay11/enumerate.js
+```npm i @sanjay11/enumerate.js```
 
 #### Example
 
