@@ -1,5 +1,5 @@
 {
-  "name": "enumerate.js",
+  "name": "enumerate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IdpugantiSanjay/enumerate.js/issues"
+    "url": "https://github.com/IdpugantiSanjay/enumerate/issues"
   },
-  "homepage": "https://github.com/IdpugantiSanjay/enumerate.js#readme"
+  "homepage": "https://github.com/IdpugantiSanjay/enumerate#readme"
 }
