@@ -9,7 +9,7 @@ npm i @sanjay11/enumerate.js
 #### Example
 
 ```js
-for ([index, value] of enumerate([1, 2, 3, 4])) {
+for (let [index, value] of enumerate([1, 2, 3, 4])) {
    console.log(index, value)
 }
 
