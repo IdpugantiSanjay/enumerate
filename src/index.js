@@ -4,3 +4,6 @@ function* enumerate(iterable) {
         yield [index++, value]
     }
 }
+
+
+export { enumerate }
