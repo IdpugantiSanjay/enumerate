@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/IdpugantiSanjay/enumerate/issues"
   },
-  "homepage": "https://github.com/IdpugantiSanjay/enumerate#readme"
+  "homepage": "https://github.com/IdpugantiSanjay/enumerate#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
