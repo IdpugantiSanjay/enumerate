@@ -3,12 +3,9 @@
  * @author Sanjay Idpuganti
  * @param {Iterable} iterable 
  */
-function* enumerate(iterable) {
+module.exports = function* enumerate(iterable) {
     let index = 0
     for (const value of iterable) {
         yield [index++, value]
     }
 }
-
-
-export { enumerate }
