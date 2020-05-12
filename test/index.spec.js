@@ -7,3 +7,11 @@ it('Should return 0 as first index when single element iterable is passed', () =
 
     expect(index).toBe(0)
 })
+
+
+it('Should throw error when nothing is passed', () => {
+    function iterate() {
+        for (const i of enumerate()) { }
+    }
+    expect(iterate).toThrow(Error)
+})
