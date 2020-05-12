@@ -4,12 +4,12 @@ Python style enumerate function generator in javascript
 
 #### Installation
 
-```npm i @sanjay11/enumerate.js```
+```npm i @idpugantisanjay/enumerate```
 
 #### Example
 
 ```js
-const enumerate = require('@sanjay11/enumerate.js')
+const enumerate = require('@idpugantisanjay/enumerate')
 
 for (let [index, value] of enumerate([1, 2, 3, 4])) {
     console.log(index, value)
