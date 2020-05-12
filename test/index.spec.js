@@ -15,3 +15,10 @@ it('Should throw error when nothing is passed', () => {
     }
     expect(iterate).toThrow(Error)
 })
+
+it('Should throw error non iterable value is passed', () => {
+    function iterate() {
+        for (const i of enumerate(1)) { }
+    }
+    expect(iterate).toThrow(Error)
+})
