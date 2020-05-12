@@ -1,7 +1,7 @@
 const enumerate = require('../src')
 
 
-it('Should return 0 as first index', () => {
+it('Should return 0 as first index when single element iterable is passed', () => {
     var e = enumerate([1])
     let [index] = e.next().value
 
